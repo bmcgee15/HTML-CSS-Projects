@@ -1,0 +1,101 @@
+.mainMenu{
+  position: absolute;
+  top: 0px;
+  width: 70%;
+  height: 30px;
+  background-color: #fbefb3;  
+  color: #14ab3f;
+  text-align: center;
+  margin: 0px 15% 0px 15%;
+  vertical-align: middle;
+}
+
+.mainMenu ul{
+  text-align: center;
+  margin: auto;
+}
+
+.mainMenu li{
+  list-style-type: none;
+  display: inline;
+}
+
+li a{
+  padding: 50px;
+  color: #14ab3f;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+}
+
+img.trade {
+	vertical-align:middle;
+	margin: 10px 0px 0px 0px;
+}
+
+img.logo {
+	vertical-align:middle;
+	margin: 10px 0px 0px 0px;
+}
+
+#center {
+	text-align:center;
+	margin: 40px 0px 0px 0px;
+}
+
+#bulky{
+  color: #ec834a;
+}
+
+.bulk{
+  margin: 20px 15% 20px 15%;
+}
+h1, h2, h3{
+  color: #14ab3f;
+}
+
+#facility{
+  float: right;
+}
+
+#tips{
+  list-style-type: lower-roman;
+}
+
+#arrows{
+  list-style-image: url('images/greenarrow.png');
+  line-height: 3em;
+}
+
+#circle{
+  list-style-type: circle;
+}
+
+a:hover{
+  color: #ec834a	
+}
+
+a:active{
+  color: black;
+}
+
+.underline{
+  text-decoration: underline;	
+}
+
+#compost{
+  margin: 0;
+  padding: 0;
+  color: purple;  
+}
+
+#footer{
+  background-image: url(images/ricepaper.png);
+  width: 100%;
+  height: 140px;
+  border-top-color: black;
+  border-top-style: solid;
+  text-align: center;
+  margin-bottom: 5em;
+  color: black;
+}

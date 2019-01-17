@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    overflow-x: scroll;
+}
+
+div.page{
+    margin-top: 20px;
+    margin-left: 15%;
+    width: 70%;
+}
+
+.bantext{
+    position: absolute;
+    top: 40px;
+    left: 29%;
+    color: white;
+    font-size: 60px;
+    font-style: bold;
+}
+
+nav{
+    float: right;
+}
+
+nav li a{
+    display: inline;
+    background-color: #c0c0c0;
+    color: white;
+    border-color: black;
+    text-decoration: none;    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+nav li {
+    display: inline;
+    background-color: #c0c0c0;
+    color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-bottom: none;
+    margin-left: 1px;
+    border-radius: 8px 0px 0px 0px;
+    padding: 4px 10px 0px;
+    
+}
+
+a:hover{
+    color: black;
+}
+
+img{
+    width: 100%;
+    float: right;
+}
+
+.aboutus{
+    float: left;
+    width: 80%;
+}
+
+.aboutus p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.aboutus #bike{
+    width: 100%;
+}
+
+#bike{
+    clear: right;
+    float: left;
+}
+#trip{
+    clear: right;
+    float: right;
+    width: 200px;
+    padding: 0px 10px 800px 10px;
+    background-color: #bbccdd;
+}
+
+#trip p{
+    margin-top: 10px;
+}
+
+#righty{
+    float: right;
+    width: 40%;
+}
+
+#bycicles{
+    clear: right;
+    float:right;
+    margin-right: 17%;
+}
+
+.feet{
+    clear: right;
+    border-top: black thin solid;
+    padding-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.bantext a{
+    color: white;
+}
+.bantext a:hover{
+    color: black;
+    background-color: #bbccdd;
+}
